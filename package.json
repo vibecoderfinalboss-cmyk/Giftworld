@@ -1,0 +1,11 @@
+{
+  "name": "giftcraft",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node -e \"const fs=require('fs'); fs.mkdirSync('dist',{recursive:true}); fs.copyFileSync('index.html','dist/index.html');\""
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
